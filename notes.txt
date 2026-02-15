@@ -1,0 +1,23 @@
+Set up
+
+PlatformIO - https://platformio.org/
+
+Install pio on mac:
+  brew install platformio
+
+Set up project:
+  pio project init --board uno
+  pio run -t compiledb
+
+Run project:
+  pio run
+  pio run --target upload
+
+Set up lazyvim for c++:
+  Install with mason: clangd (c++)
+
+In src/main.cpp:
+  #include "pins_arduino.h"
+  #include <Arduino.h>
+  void setup(){}
+  void loop(){}
