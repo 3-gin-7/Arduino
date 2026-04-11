@@ -13,6 +13,10 @@ Run project:
   pio run
   pio run --target upload
 
+Get the device list and usb port
+  pio device list
+  * find the usb port of the board and add "upload_port = /dev/port-name" to ini file
+
 Set up lazyvim for c++:
   Install with mason: clangd (c++)
 
