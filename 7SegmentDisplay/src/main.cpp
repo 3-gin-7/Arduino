@@ -21,13 +21,13 @@ void setup()
 {
     // set up 7 pins for output -- maybe 6 w/o DP
     // 12- 5
-    digitalWrite(a, OUTPUT);
-    digitalWrite(b, OUTPUT);
-    digitalWrite(c, OUTPUT);
-    digitalWrite(d, OUTPUT);
-    digitalWrite(e, OUTPUT);
-    digitalWrite(f, OUTPUT);
-    digitalWrite(g, OUTPUT);
+    pinMode(a, OUTPUT);
+    pinMode(b, OUTPUT);
+    pinMode(c, OUTPUT);
+    pinMode(d, OUTPUT);
+    pinMode(e, OUTPUT);
+    pinMode(f, OUTPUT);
+    pinMode(g, OUTPUT);
 
     digitalWrite(a, LOW);
     digitalWrite(b, LOW);

@@ -1,0 +1,14 @@
+CompileFlags:
+  Add:
+    - -DARDUINO=10805
+    - -DARDUINO_AVR_UNO
+    - -DF_CPU=16000000L
+    - -D__AVR_ATmega328P__
+    - -Isrc
+    - -Iinclude
+    - -I.pio/libdeps/uno
+    - -I/Users/gin/.platformio/packages/framework-arduino-avr/cores/arduino
+    - -I/Users/gin/.platformio/packages/framework-arduino-avr/variants/standard
+    - -I/Users/gin/.platformio/packages/toolchain-atmelavr/avr/include
+  Remove:
+    - -mmcu=*
